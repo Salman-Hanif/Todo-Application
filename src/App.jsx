@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import './App.css'
 import InputBox from "./components/InputBox";
-import TodoList from "./components/TodoLIst";
+import TodoList from "./components/TodoList";
 
 export default function App() {
   const [input, setInput] = useState("");
